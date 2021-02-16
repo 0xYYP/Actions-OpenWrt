@@ -16,5 +16,4 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
-# 添加 garypang13 源
-sed -i '$a src-git garypang13 https://github.com/garypang13/openwrt-packages' feeds.conf.default
+git clone https://github.com/garypang13/openwrt-packages.git openwrt/package/
